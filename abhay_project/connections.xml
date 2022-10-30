@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<data grt_format="2.0">
+  <value _ptr_="0000029A7D753880" type="list" content-type="object" content-struct-name="db.mgmt.Connection">
+    <value type="object" struct-name="db.mgmt.Connection" id="{C04F821A-D301-4248-9050-D11932206C12}" struct-checksum="0x96ba47d8">
+      <link type="object" struct-name="db.mgmt.Driver" key="driver">com.mysql.rdbms.mysql.driver.native</link>
+      <value type="string" key="hostIdentifier">Mysql@localhost:3306</value>
+      <value type="int" key="isDefault">1</value>
+      <value _ptr_="0000029A7DCB8450" type="dict" key="modules"/>
+      <value _ptr_="0000029A7DCB8BD0" type="dict" key="parameterValues">
+        <value type="string" key="DbSqlEditor:LastDefaultSchema">parking</value>
+        <value type="int" key="OPT_READ_TIMEOUT">300</value>
+        <value type="string" key="SQL_MODE"></value>
+        <value type="string" key="hostName">localhost</value>
+        <value type="int" key="lastConnected">1595239739</value>
+        <value type="string" key="password"></value>
+        <value type="int" key="port">3306</value>
+        <value type="string" key="schema"></value>
+        <value type="string" key="serverVersion">8.0.20</value>
+        <value type="string" key="sslCA"></value>
+        <value type="string" key="sslCert"></value>
+        <value type="string" key="sslCipher"></value>
+        <value type="string" key="sslKey"></value>
+        <value type="int" key="useSSL">1</value>
+        <value type="string" key="userName">root</value>
+      </value>
+      <value type="string" key="name">Local instance MySQL80</value>
+      <link type="object" struct-name="GrtObject" key="owner">{A5B6E8D7-3E68-4083-96F4-4578F3A2991C}</link>
+    </value>
+  </value>
+</data>

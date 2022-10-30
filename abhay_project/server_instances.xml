@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<data grt_format="2.0">
+  <value _ptr_="0000029A7D7538F0" type="list" content-type="object" content-struct-name="db.mgmt.ServerInstance">
+    <value type="object" struct-name="db.mgmt.ServerInstance" id="{44517F3C-9B7D-4621-BE9F-73E255040352}" struct-checksum="0x367436e2">
+      <link type="object" struct-name="db.mgmt.Connection" key="connection">{C04F821A-D301-4248-9050-D11932206C12}</link>
+      <value _ptr_="0000029A7DCB8ED0" type="dict" key="loginInfo">
+        <value type="string" key="wmi.hostName"></value>
+        <value type="string" key="wmi.userName"></value>
+      </value>
+      <value _ptr_="0000029A7DCB8FF0" type="dict" key="serverInfo">
+        <value type="string" key="serverVersion">5.5</value>
+        <value type="int" key="setupPending">0</value>
+        <value type="string" key="sys.config.path">%ProgramData%\MySQL\MySQL Server 5.5\my.ini</value>
+        <value type="int" key="sys.config.path.lock">1</value>
+        <value type="string" key="sys.config.section">mysqld</value>
+        <value type="string" key="sys.mysqld.service_name">MySQL</value>
+        <value type="string" key="sys.mysqld.start">sc start mysql</value>
+        <value type="string" key="sys.mysqld.stop">sc stop mysql</value>
+        <value type="string" key="sys.preset">Windows (MySQL 5.5 Installer Package)</value>
+        <value type="string" key="sys.sudo"></value>
+        <value type="string" key="sys.system">Windows</value>
+        <value type="int" key="sys.usesudo">1</value>
+        <value type="int" key="sys.usesudostatus">0</value>
+        <value type="int" key="windowsAdmin">1</value>
+      </value>
+      <value type="string" key="name">Local MySQL80</value>
+    </value>
+  </value>
+</data>
